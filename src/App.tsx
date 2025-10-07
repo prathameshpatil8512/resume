@@ -5,7 +5,7 @@ function App() {
     <div className="app">
       {/* Header */}
       <header className="header">
-        <div className="logo">YourName</div>
+        <div className="logo">Prathamesh Patil</div>
         <nav className="nav">
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
@@ -15,8 +15,8 @@ function App() {
 
       {/* Hero Section */}
       <section className="hero">
-        <h1>Hi, I'm <span>Your Name</span></h1>
-        <p>I'm a passionate <strong>Web Developer</strong> who loves crafting elegant and efficient solutions.</p>
+        <h1>Hi, I'm <span>Prathamesh Patil</span></h1>
+        <p>I'm a passionate <strong>Quality Analyst</strong> who loves crafting elegant and efficient solutions.</p>
         <a href="#projects" className="cta">View My Work</a>
       </section>
 
