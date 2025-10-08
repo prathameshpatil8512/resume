@@ -49,7 +49,7 @@ function App() {
       <section id="contact" className="contact">
         <h2>Get In Touch</h2>
         <p>Interested in working together or just want to say hi?</p>
-        <a href="prathameshpatil8512.com" className="cta">Contact Me</a>
+        <a href="mailto:prathameshpatil8512@yahoo.com" className="cta">Contact Me</a>
       </section>
 
       {/* Footer */}
