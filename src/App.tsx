@@ -61,7 +61,7 @@ function App() {
             <a href="mailto:prathameshpatil8512@yahoo.com" className="cta">Contact Me</a>
           </div>
           <div className="contacts-card">
-            <a href="./public/Prathamesh-Software-Quality-Engineer.pdf" download="Prathamesh_Patil_CV.pdf" target="_blank" 
+            <a href="/Prathamesh-Software-Quality-Engineer.pdf" download="Prathamesh_Patil_CV.pdf" target="_blank" 
           rel="noopener noreferrer" className="cta">Download CV</a>
           </div>
         </div>
