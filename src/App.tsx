@@ -1,4 +1,5 @@
 import "./App.css";
+import ResumePDF from "./assets/Prathamesh-Software-Quality-Engineer.pdf";
 
 function App() {
   return (
@@ -61,7 +62,7 @@ function App() {
             <a href="mailto:prathameshpatil8512@yahoo.com" className="cta">Contact Me</a>
           </div>
           <div className="contacts-card">
-            <a href="/Prathamesh-Software-Quality-Engineer.pdf" download="Prathamesh_Patil_CV.pdf" target="_blank" 
+            <a href= {ResumePDF} download="Prathamesh_Patil_Quality_Analyst.pdf" target="_blank" 
           rel="noopener noreferrer" className="cta">Download CV</a>
           </div>
         </div>
