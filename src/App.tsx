@@ -16,7 +16,7 @@ function App() {
       {/* Hero Section */}
       <section className="hero">
         <h1>Hi, I'm <span>Prathamesh Patil</span></h1>
-        <p>I'm a passionate <strong>Quality Analyst</strong> who loves crafting elegant and efficient solutions.</p>
+        <p>I’m a <strong>Software Tester</strong> with around <strong>4 years</strong> of hands-on experience in ensuring product quality and reliability through meticulous testing and <strong>automation</strong>.</p>
         <a href="#projects" className="cta">View My Work</a>
       </section>
 
