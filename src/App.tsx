@@ -1,5 +1,6 @@
 import "./App.css";
 import ResumePDF from "./assets/Prathamesh-Software-Quality-Engineer.pdf";
+import { Typewriter } from 'react-simple-typewriter';
 
 function App() {
   return (
@@ -16,10 +17,25 @@ function App() {
 
       {/* Hero Section */}
       <section className="hero">
-        <h1>Hi, I'm <span>Prathamesh Patil</span></h1>
-        <p>I’m a <strong>Software Tester</strong> with around <strong>4 years</strong> of hands-on experience in ensuring product quality and reliability through meticulous testing and <strong>automation</strong>.</p>
-        <a href="#projects" className="cta">View My Work</a>
-      </section>
+  <h1>
+    Hi, I'm{' '}
+    <span style={{ color: '#ff4d5a', fontWeight: 'bold' }}>
+      <Typewriter
+        words={['Prathamesh Patil']}
+        loop={0}         // 0 = infinite
+        cursor
+        cursorStyle="/"
+        typeSpeed={100}
+        deleteSpeed={50}
+        delaySpeed={2000}
+      />
+    </span>
+  </h1>
+  <p>
+    I’m a <strong>Software Tester</strong> with around <strong>4 years</strong> of hands-on experience...
+  </p>
+  <a href="#projects" className="cta">View My Work</a>
+</section>
 
       {/* About Section */}
       <section id="about" className="about">

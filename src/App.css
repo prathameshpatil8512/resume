@@ -132,3 +132,21 @@ body {
   font-size: 0.9rem;
   color: #8b949e;
 }
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 0.15em solid orange; /* cursor */
+  white-space: nowrap;
+  animation: typing 2s steps(20, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 14ch } /* number of characters in your name */
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
