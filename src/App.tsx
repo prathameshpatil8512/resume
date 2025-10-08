@@ -40,15 +40,7 @@ function App() {
         <div className="project-grid">
           <div className="project-card">
             <h3>Portfolio Website</h3>
-            <p>A responsive portfolio built with React & TailwindCSS.</p>
-          </div>
-          <div className="project-card">
-            <h3>Task Manager App</h3>
-            <p>A full-stack productivity app using MERN stack.</p>
-          </div>
-          <div className="project-card">
-            <h3>API Dashboard</h3>
-            <p>A data visualization dashboard powered by REST APIs.</p>
+            <p>A responsive portfolio built with React.</p>
           </div>
         </div>
       </section>
@@ -57,15 +49,14 @@ function App() {
       <section id="contact" className="contact">
         <h2>Get In Touch</h2>
         <p>Interested in working together or just want to say hi?</p>
-        <a href="mailto:youremail@example.com" className="cta">Contact Me</a>
+        <a href="mailto:prathameshpatil8512.com" className="cta">Contact Me</a>
       </section>
 
       {/* Footer */}
       <footer className="footer">
-        <p>© {new Date().getFullYear()} Your Name. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Prathamesh Patil. All rights reserved.</p>
       </footer>
     </div>
   );
 }
-
 export default App;
