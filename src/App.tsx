@@ -26,6 +26,11 @@ function App() {
         <p>
           I specialize in: <br/>
           Automation Testing using <strong>Java + Selenium</strong> and <strong>Playwright (TypeScript)</strong> <br/>
+          <strong>Functional, API</strong>, and <strong>Database Testing</strong> <br/>
+          Building robust test frameworks and collaborating closely with development teams to deliver high-quality releases. <br/>
+          Alongside testing, I have a growing passion for <strong>front-end development</strong>, particularly using <strong>React and TypeScript</strong>. I love bringing ideas to life through clean, responsive, and user-friendly interfaces — combining my <strong>testing mindset with a developer’s creativity</strong>. <br/>
+          I’m passionate about <strong>creating efficient, maintainable test solutions</strong> that help teams move faster with confidence. My goal is always to blend quality with speed — making testing a seamless part of the delivery pipeline. <br/>
+          Outside of work, you’ll often find me on a <strong>bike ride</strong> exploring new routes, or diving deep into the world of <strong>trading — equities and derivatives</strong>. I enjoy analyzing market trends just as much as I enjoy debugging code! <br/>
         </p>
       </section>
 
