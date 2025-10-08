@@ -24,10 +24,8 @@ function App() {
       <section id="about" className="about">
         <h2>About Me</h2>
         <p>
-          I’m a developer focused on building clean, user-friendly experiences.
-          My main stack includes <strong>React</strong>, <strong>TypeScript</strong>,
-          and <strong>Node.js</strong>. I enjoy collaborating on innovative projects
-          that make an impact.
+          I specialize in: <br/>
+          Automation Testing using <strong>Java + Selenium</strong> and <strong>Playwright (TypeScript)</strong> <br/>
         </p>
       </section>
 
