@@ -24,7 +24,7 @@ function App() {
         words={['Prathamesh Patil']}
         loop={0}         // 0 = infinite
         cursor
-        cursorStyle="/"
+        cursorStyle="|"
         typeSpeed={100}
         deleteSpeed={50}
         delaySpeed={2000}
@@ -39,7 +39,7 @@ function App() {
 
       {/* About Section */}
       <section id="about" className="about">
-        <h2>About Me</h2>
+        <h2  className="gradient-text">About Me</h2>
         <p>
           I specialize in: <br/>
           Automation Testing using <strong>Java + Selenium</strong> and <strong>Playwright (TypeScript)</strong> <br/>
@@ -53,7 +53,7 @@ function App() {
 
       {/* Projects Section */}
       <section id="projects" className="projects">
-        <h2>Projects</h2>
+        <h2 className="gradient-text">Projects</h2>
         <div className="project-grid">
           <div className="project-card">
             <h3>Portfolio Website</h3>
@@ -71,7 +71,7 @@ function App() {
 
       {/* Contact Section */}
       <section id="contacts" className="contacts">
-        <h2>Get In Touch</h2>
+        <h2 className="gradient-text">Get In Touch</h2>
         <p>Interested in working together or just want to say hi?</p>
         <div className="contacts-grid">
           <div className="contacts-card">
