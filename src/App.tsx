@@ -46,10 +46,24 @@ function App() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="contact">
+      {/* <section id="contact" className="contact">
         <h2>Get In Touch</h2>
         <p>Interested in working together or just want to say hi?</p>
         <a href="mailto:prathameshpatil8512@yahoo.com" className="cta">Contact Me</a>
+      </section> */}
+
+      {/* Contact Section */}
+      <section id="contacts" className="contacts">
+        <h2>Get In Touch</h2>
+        <p>Interested in working together or just want to say hi?</p>
+        <div className="contacts-grid">
+          <div className="contacts-card">
+            <a href="mailto:prathameshpatil8512@yahoo.com" className="cta">Contact Me</a>
+          </div>
+          <div className="contacts-card">
+            <a href="mailto:prathameshpatil8512@yahoo.com" className="cta">Download CV</a>
+          </div>
+        </div>
       </section>
 
       {/* Footer */}

@@ -81,12 +81,12 @@ body {
 }
 
 /* About Section */
-.about, .projects, .contact {
+.about, .projects, .contact, .contacts {
   margin: 4rem 0;
   text-align: center;
 }
 
-.about h2, .projects h2, .contact h2 {
+.about h2, .projects h2, .contact h2, .contacts h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
   color: #58a6ff;
@@ -114,6 +114,14 @@ body {
 
 .project-card:hover {
   transform: translateY(-5px);
+}
+
+/* Contacts Grid */
+.contacts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
 }
 
 /* Footer */
